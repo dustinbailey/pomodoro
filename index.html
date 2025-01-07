@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer 3000</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer 3000</h1>
+        <div class="mode-toggle">
+            <span class="mode-label">Work</span>
+            <label class="switch">
+                <input type="checkbox" id="mode-switch">
+                <span class="slider round"></span>
+            </label>
+            <span class="mode-label">Rest</span>
+        </div>
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="status">
+            <p id="status-text">Time to focus!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
