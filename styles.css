@@ -183,6 +183,16 @@ input:checked + .slider:before {
         margin: 16px;
         padding: 1.5rem;
         max-width: calc(100% - 32px);
-        width: auto;
+        width: calc(100% - 32px);
+        box-sizing: border-box;
+    }
+}
+
+/* Add a minimum margin for very small screens */
+@media (max-width: 360px) {
+    .modal {
+        margin: 12px;
+        max-width: calc(100% - 24px);
+        width: calc(100% - 24px);
     }
 } 
